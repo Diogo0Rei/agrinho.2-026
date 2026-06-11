@@ -13,3 +13,11 @@ function calcularImpacto() {
   resultado.textContent = `Consumindo ${quantidade} alimentos locais, você contribui com aproximadamente ${impacto} kg de impacto positivo na sua comunidade e no meio ambiente!`;
   resultado.style.color = "green";
 }
+// botão voltar ao topo
+
+document.getElementById("topo").addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
