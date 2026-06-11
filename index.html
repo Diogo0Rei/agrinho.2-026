@@ -10,13 +10,21 @@
   <!-- Cabeçalho -->
   <header>
     <h1>Da Raiz à Mesa</h1>
-    <p>Conectando o campo à sua cidade com consumo consciente</p>
+    <p>Entenda a jornada do alimento, do campo à sua mesa, e faça escolhas conscientes.</p>
   </header>
 
-  <!-- Seção sobre o tema -->
+  <!-- Seção sobre o conceito -->
   <section id="sobre">
-    <h2>Sobre Nós</h2>
-    <p>Nosso objetivo é mostrar a jornada do alimento, do produtor urbano ao consumidor, promovendo escolhas conscientes e sustentáveis.</p>
+    <h2>O que é "Da Raiz à Mesa"?</h2>
+    <p>
+      "Da Raiz à Mesa" é um movimento que busca aproximar o consumidor urbano do produtor rural,
+      mostrando cada etapa que os alimentos percorrem até chegar à nossa mesa. Ao conhecer essa jornada,
+      podemos tomar decisões mais conscientes, valorizar o trabalho agrícola e reduzir desperdícios.
+    </p>
+    <p>
+      O objetivo é promover a **consciência alimentar**, incentivando o consumo de produtos frescos, 
+      locais e produzidos de forma sustentável.
+    </p>
   </section>
 
   <!-- Seção da jornada do alimento -->
@@ -25,19 +33,38 @@
     <div class="steps">
       <div class="step">
         <h3>1. Plantio</h3>
-        <p>O alimento nasce no campo, cultivado com cuidado e respeito à natureza.</p>
+        <p>
+          A jornada começa no campo. O plantio é planejado para respeitar o ciclo natural das plantas, 
+          priorizando técnicas que preservam o solo, a água e a biodiversidade local.
+        </p>
       </div>
       <div class="step">
-        <h3>2. Colheita</h3>
-        <p>Após crescer, os alimentos são colhidos no ponto certo de maturação.</p>
+        <h3>2. Crescimento e Cuidado</h3>
+        <p>
+          Durante o crescimento, os alimentos recebem cuidados especiais: irrigação adequada, controle de pragas 
+          natural e atenção à qualidade do solo. Esse cuidado garante alimentos nutritivos e seguros.
+        </p>
       </div>
       <div class="step">
-        <h3>3. Transporte</h3>
-        <p>Os alimentos seguem para a cidade com logística eficiente e sustentável.</p>
+        <h3>3. Colheita</h3>
+        <p>
+          No momento certo de maturação, os alimentos são colhidos. A colheita no ponto ideal mantém o sabor,
+          os nutrientes e a durabilidade do alimento.
+        </p>
       </div>
       <div class="step">
-        <h3>4. Consumo</h3>
-        <p>Chegando ao consumidor, incentivamos escolhas conscientes e saudáveis.</p>
+        <h3>4. Transporte e Distribuição</h3>
+        <p>
+          Após a colheita, os alimentos são transportados para centros de distribuição e mercados urbanos. 
+          A logística eficiente e sustentável reduz perdas e garante que os produtos cheguem frescos ao consumidor.
+        </p>
+      </div>
+      <div class="step">
+        <h3>5. Consumo Consciente</h3>
+        <p>
+          Por fim, o alimento chega à mesa do consumidor. Escolher produtos locais, sazonais e minimizar o desperdício
+          faz parte do consumo consciente, contribuindo para uma sociedade mais sustentável.
+        </p>
       </div>
     </div>
   </section>
@@ -45,8 +72,11 @@
   <!-- Seção interativa -->
   <section id="interativo">
     <h2>Calcule seu impacto</h2>
-    <p>Quantos alimentos você consome diretamente da agricultura urbana?</p>
-    <input type="number" id="quantidade" placeholder="Número de alimentos" />
+    <p>
+      Quantos alimentos você consome diretamente da agricultura urbana ou de produtores locais por semana? 
+      Descubra como suas escolhas impactam positivamente o planeta.
+    </p>
+    <input type="number" id="quantidade" placeholder="Número de alimentos por semana" />
     <button onclick="calcularImpacto()">Calcular Impacto</button>
     <p id="resultado"></p>
   </section>
