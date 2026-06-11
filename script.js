@@ -8,7 +8,8 @@ function calcularImpacto() {
     return;
   }
 
-  const impacto = quantidade * 2; // Exemplo simples: 2kg de impacto positivo por alimento
-  resultado.textContent = `Você gerou aproximadamente ${impacto} kg de impacto positivo consumindo alimentos conscientes!`;
+  // Fórmula simples: cada alimento local gera 2 kg de impacto positivo (exemplo educativo)
+  const impacto = quantidade * 2;
+  resultado.textContent = `Consumindo ${quantidade} alimentos locais, você contribui com aproximadamente ${impacto} kg de impacto positivo na sua comunidade e no meio ambiente!`;
   resultado.style.color = "green";
 }
