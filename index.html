@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Da Raiz à Mesa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Da Raiz à Mesa</h1>
+    <p>Conectando o campo à sua cidade com consumo consciente</p>
+  </header>
+
+  <!-- Seção sobre o tema -->
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Nosso objetivo é mostrar a jornada do alimento, do produtor urbano ao consumidor, promovendo escolhas conscientes e sustentáveis.</p>
+  </section>
+
+  <!-- Seção da jornada do alimento -->
+  <section id="jornada">
+    <h2>A Jornada do Alimento</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. Plantio</h3>
+        <p>O alimento nasce no campo, cultivado com cuidado e respeito à natureza.</p>
+      </div>
+      <div class="step">
+        <h3>2. Colheita</h3>
+        <p>Após crescer, os alimentos são colhidos no ponto certo de maturação.</p>
+      </div>
+      <div class="step">
+        <h3>3. Transporte</h3>
+        <p>Os alimentos seguem para a cidade com logística eficiente e sustentável.</p>
+      </div>
+      <div class="step">
+        <h3>4. Consumo</h3>
+        <p>Chegando ao consumidor, incentivamos escolhas conscientes e saudáveis.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção interativa -->
+  <section id="interativo">
+    <h2>Calcule seu impacto</h2>
+    <p>Quantos alimentos você consome diretamente da agricultura urbana?</p>
+    <input type="number" id="quantidade" placeholder="Número de alimentos" />
+    <button onclick="calcularImpacto()">Calcular Impacto</button>
+    <p id="resultado"></p>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2026 Da Raiz à Mesa - Todos os direitos reservados</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
