@@ -7,61 +7,58 @@
 }
 
 body {
-  background-color: #f0f4f1;
-  color: #3a3a3a;
-  line-height: 1.6;
+  background-color: #f7f9f5;
+  color: #333;
+  line-height: 1.7;
 }
 
 /* Cabeçalho */
 header {
   background-color: #4caf50;
   color: #fff;
-  padding: 2rem;
+  padding: 3rem 1rem;
   text-align: center;
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 header p {
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
+  font-size: 1.3rem;
 }
 
 /* Seções */
 section {
-  padding: 2rem;
+  padding: 3rem 1rem;
   max-width: 1000px;
   margin: 0 auto;
 }
 
 section h2 {
   color: #2e7d32;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
 
 /* Jornada */
 .steps {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .step {
-  background-color: #fff3e0;
-  border: 2px solid #ffa726;
+  background-color: #fff8e1;
+  border-left: 6px solid #ffa726;
   border-radius: 10px;
-  padding: 1rem;
-  flex: 1 1 200px;
-  text-align: center;
+  padding: 1.5rem;
 }
 
 .step h3 {
   color: #ef6c00;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 /* Seção interativa */
@@ -69,26 +66,35 @@ section h2 {
   background-color: #e8f5e9;
   border-radius: 10px;
   text-align: center;
+  padding: 2rem;
 }
 
 #interativo input {
-  padding: 0.5rem;
-  width: 200px;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  padding: 0.7rem;
+  width: 220px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 #interativo button {
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.5rem;
   background-color: #4caf50;
   border: none;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
+  font-size: 1rem;
 }
 
 #interativo button:hover {
   background-color: #388e3c;
+}
+
+#resultado {
+  margin-top: 1rem;
+  font-weight: bold;
 }
 
 /* Rodapé */
@@ -96,6 +102,6 @@ footer {
   background-color: #2e7d32;
   color: #fff;
   text-align: center;
-  padding: 1rem;
+  padding: 1.5rem;
   margin-top: 2rem;
 }
